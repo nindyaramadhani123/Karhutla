@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rimba Pulih – Fakta dan Aksi Menghadapi Karhutla 2026</title>
+  <meta name="description" content="Fakta terbaru kebakaran hutan dan lahan (karhutla) Indonesia 2026: luas terbakar, dampak bagi kesehatan dan satwa, serta langkah nyata untuk memulihkan rimba.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Figtree:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="defs" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="fg" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0" stop-color="#d92b16"/>
+        <stop offset=".55" stop-color="#ff6a1a"/>
+        <stop offset="1" stop-color="#ffb629"/>
+      </linearGradient>
+      <linearGradient id="fg2" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0" stop-color="#ff9d1a"/>
+        <stop offset="1" stop-color="#fff3a6"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#isi">Langsung ke isi</a>
+
+  <header class="top">
+    <a class="logo" href="#hero" aria-label="Rimba Pulih, ke atas">
+      <svg viewBox="0 0 26 30" aria-hidden="true"><path d="M13 0C8 7 3 11 3 18a10 10 0 0 0 20 0C23 11 18 7 13 0Z" fill="#c6f36b"/><path d="M13 12c-2.6 3.6-5 5.3-5 8.4a5 5 0 0 0 10 0c0-3.100-2.400-4.800-5-8.400Z" fill="#0c1e12"/></svg>
+      Rimba Pulih
+    </a>
+    <nav aria-label="Navigasi utama">
+      <a href="#fakta">Fakta</a>
+      <a href="#penyebab">Penyebab</a>
+      <a href="#satwa">Satwa</a>
+      <a href="#harapan">Harapan</a>
+      <a class="pill" href="#aksi">Ikut beraksi</a>
+    </nav>
+  </header>
+
+  <main id="isi">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero" aria-labelledby="judul">
+      <div class="sky"></div>
+      <div class="glow"></div>
+      <div class="smoke" aria-hidden="true">
+        <i style="--s:240px;--x:62%;--t:11s;--dl:0s"></i>
+        <i style="--s:300px;--x:74%;--t:14s;--dl:3s"></i>
+        <i style="--s:200px;--x:86%;--t:10s;--dl:6s"></i>
+        <i style="--s:260px;--x:52%;--t:13s;--dl:8s"></i>
+      </div>
+      <div class="trees" id="trees" aria-hidden="true"></div>
+      <div class="flames" id="flames" aria-hidden="true"></div>
+      <div class="embers" id="embers" aria-hidden="true"></div>
+      <div class="birds" id="birds" aria-hidden="true"></div>
+      <div class="herd" id="herd" aria-hidden="true"></div>
+      <div class="ground" aria-hidden="true"></div>
+      <div class="rain" id="rain" aria-hidden="true"></div>
+
+      <div class="wrap hero-grid">
+        <div>
+          <span class="status"><span class="dot"></span>Siaga darurat karhutla masih berlaku di sejumlah provinsi</span>
+          <h1 id="judul">Rumah mereka terbakar.<span class="l2">Kita masih bisa menyelamatkan sisanya.</span></h1>
+          <p class="lead">Lebih dari 202 ribu hektare hutan dan lahan terbakar di Indonesia pada 2026. Di balik angka itu ada napas yang sesak, satwa yang kehilangan rumah, dan desa-desa yang berjuang menjaga gambutnya tetap basah.</p>
+          <div class="btns">
+            <a class="btn lime" href="#fakta">Lihat fakta terbaru</a>
+            <a class="btn line" href="#aksi">Apa yang bisa kulakukan</a>
+          </div>
+        </div>
+
+        <aside class="sim" aria-label="Simulasi hujan">
+          <h2>Api bisa berhenti. Tapi bagaimana?</h2>
+          <p>Hujan dan gambut yang tetap basah menghentikan api. Tekan tombolnya dan lihat hutan yang berhasil diselamatkan.</p>
+          <button class="btn" type="button" id="rain-btn" aria-pressed="false">Turunkan hujan</button>
+          <p class="after" id="sim-note" aria-live="polite"></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= FAKTA ================= -->
+    <section class="sec d1" id="fakta">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="tagline">Data per akhir Oktober 2026</span>
+          <h2>Angka-angka yang tidak bisa kita abaikan</h2>
+          <p class="sub">Dikumpulkan dari laporan pemerintah, BNPB, dan lembaga independen. Angka bisa berubah setiap hari karena pemantauan terus berjalan.</p>
+        </div>
+
+        <div class="stats">
+          <div class="card stat hot rv" style="--k:0">
+            <span class="num"><span class="count" data-to="202">0</span><small>ribu hektare</small></span>
+            <p>Hutan dan lahan terbakar di Indonesia, menurut sistem pemantauan SiPongi.</p>
+            <p class="src">Januari–Agustus 2026 · dikutip CELIOS</p>
+          </div>
+          <div class="card stat hot rv" style="--k:1">
+            <span class="num">+<span class="count" data-to="69">0</span><small>%</small></span>
+            <p>Lebih luas dibanding periode yang sama pada 2025. Sepanjang 2025 sendiri sekitar 359 ribu hektare terbakar.</p>
+            <p class="src">Kompas.com, 3 Okt 2026 dan 26 Mar 2026</p>
+          </div>
+          <div class="card stat rv" style="--k:2">
+            <span class="num"><span class="count" data-to="139978">0</span></span>
+            <p>Titik panas terdeteksi di kawasan gambut (Kesatuan Hidrologis Gambut) sampai pertengahan September.</p>
+            <p class="src">Pantau Gambut · Kompas.com</p>
+          </div>
+          <div class="card stat rv" style="--k:0">
+            <span class="num"><span class="count" data-to="113336">0</span></span>
+            <p>Kasus infeksi saluran pernapasan akut (ISPA) di 63 kabupaten/kota terdampak. 26.545 di antaranya anak usia 0–5 tahun.</p>
+            <p class="src">Kementerian Kesehatan · Kompas.com</p>
+          </div>
+          <div class="card stat hot rv" style="--k:1">
+            <span class="num">Rp<span class="count" data-to="123.1" data-dec="1">0</span><small>triliun</small></span>
+            <p>Perkiraan kerugian ekonomi dan kesehatan paling tinggi pada Januari–Agustus. Rentangnya Rp39,29 hingga Rp123,1 triliun.</p>
+            <p class="src">Studi CELIOS · Opsi.id, 2 Sep 2026</p>
+          </div>
+          <div class="card stat rv" style="--k:2">
+            <span class="num"><span class="count" data-to="7">0</span><small>negara</small></span>
+            <p>Terkena asap lintas batas: Malaysia, Singapura, Brunei, Filipina, Thailand, Vietnam, dan Kamboja.</p>
+            <p class="src">Pemantauan Greenpeace · Kompas.com</p>
+          </div>
+        </div>
+
+        <div class="now rv">
+          <svg class="flicker" viewBox="0 0 60 100" aria-hidden="true"><path d="M30 0C32 18 52 30 52 62c0 22-10 36-22 36S8 84 8 62c0-18 10-22 14-38 4 6 6-10 8-24Z" fill="url(#fg)"/><path d="M30 40c2 14 14 22 14 36 0 14-6 22-14 22S16 90 16 76c0-12 8-16 10-26 2 4 3-4 4-10Z" fill="url(#fg2)"/></svg>
+          <div>
+            <h3>Kondisi terkini: api belum sepenuhnya padam</h3>
+            <p>Pada 12 Oktober, BNPB mencatat 639,23 hektare di enam provinsi prioritas masih dalam proses pemadaman. Sebagian besar, 524,69 hektare, ada di Kalimantan Tengah. Sampai awal September, Riau mencatat sekitar 18.882 hektare terbakar sejak awal tahun.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SEBARAN ================= -->
+    <section class="sec d2" id="sebaran">
+      <div class="wrap split">
+        <div class="rv">
+          <span class="tagline">Sebaran api</span>
+          <h2>Api tidak lagi hanya di Sumatra dan Kalimantan</h2>
+          <p class="sub">Koalisi Indonesia Tanpa Polusi mencatat titik panas kini menyebar ke wilayah yang sebelumnya dianggap kurang rawan.</p>
+          <div class="chips" id="chips">
+            <span class="was" style="--i:0">Sumatra</span>
+            <span class="was" style="--i:1">Kalimantan</span>
+            <span style="--i:2">Jawa</span>
+            <span style="--i:3">Bali–Nusa Tenggara</span>
+            <span style="--i:4">Sulawesi</span>
+            <span style="--i:5">Maluku</span>
+            <span style="--i:6">Papua</span>
+          </div>
+          <h3 class="mini-h">Status siaga darurat tingkat provinsi</h3>
+          <ul class="siaga">
+            <li><span>Kalimantan Barat</span><span>hingga 15 Nov</span></li>
+            <li><span>Jambi</span><span>hingga 30 Nov</span></li>
+            <li><span>Kalimantan Tengah</span><span>hingga 31 Okt</span></li>
+            <li><span>Kalimantan Selatan</span><span>hingga 31 Okt</span></li>
+          </ul>
+          <p class="note">Menurut laporan BNPB 4–5 September 2026. Masa siaga dapat diperpanjang.</p>
+        </div>
+
+        <div class="card bars rv" style="--k:1">
+          <h3>Luas terbakar di beberapa provinsi</h3>
+          <div class="bar" style="--w:100%"><div class="row"><span>Kalimantan Barat</span><b>38.311 ha</b></div><div class="track"><span class="fill"></span></div><div class="when">Jan–Agu 2026 · SiPongi (via CELIOS)</div></div>
+          <div class="bar" style="--w:67.5%"><div class="row"><span>Papua Selatan</span><b>25.839 ha</b></div><div class="track"><span class="fill"></span></div><div class="when">Jan–Agu 2026 · SiPongi (via CELIOS)</div></div>
+          <div class="bar" style="--w:49.3%"><div class="row"><span>Riau</span><b>18.882 ha</b></div><div class="track"><span class="fill"></span></div><div class="when">1 Jan–4 Sep 2026 · BNPB</div></div>
+          <div class="bar" style="--w:6.6%"><div class="row"><span>Papua Tengah</span><b>2.520 ha</b></div><div class="track"><span class="fill"></span></div><div class="when">Jan–Agu 2026 · SiPongi (via CELIOS)</div></div>
+          <div class="bar" style="--w:5%"><div class="row"><span>Sumatra Selatan</span><b>1.926 ha</b></div><div class="track"><span class="fill"></span></div><div class="when">Per 3 Sep 2026 · BNPB</div></div>
+          <p class="note">Periode dan sumber tiap angka berbeda, jadi bandingkan dengan hati-hati. Cek SiPongi untuk data terbaru.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PENYEBAB ================= -->
+    <section class="sec d3" id="penyebab">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="tagline">Kenapa bisa terjadi</span>
+          <h2>Cuaca hanya satu bagian dari cerita</h2>
+          <p class="sub">Kemarau panjang memang membuat api mudah menyebar. Tapi para peneliti dan pegiat lingkungan menyebut ada faktor lain yang berasal dari cara lahan dikelola.</p>
+        </div>
+        <div class="causes">
+          <div class="card cause c1 rv" style="--k:0">
+            <h3>Kemarau panjang dan El Niño yang sangat kuat</h3>
+            <p>Kebakaran makin parah pada Agustus dan September 2026. Cuaca kering membuat semak, serasah, dan gambut mudah tersulut.</p>
+          </div>
+          <div class="card cause c2 rv" style="--k:1">
+            <h3>Gambut yang mengering</h3>
+            <p>Gambut yang kehilangan air seperti bahan bakar yang tersimpan di bawah tanah. Api bisa menjalar di dalamnya dan sulit dipadamkan.</p>
+            <p class="fact">Sekitar 73,6% titik panas pada Agustus 2026 berada di kawasan gambut.</p>
+          </div>
+          <div class="card cause c3 rv" style="--k:2">
+            <h3>Pembukaan lahan dan izin yang tumpang tindih</h3>
+            <p>WALHI dan koalisi masyarakat sipil menyoroti pembukaan lahan serta izin konsesi yang saling tumpang tindih sebagai pemicu api.</p>
+            <p class="fact">Sekitar 30% titik panas di kawasan gambut berada di area HGU dan PBPH, kira-kira 40 ribu titik.</p>
+          </div>
+          <div class="card cause c4 rv" style="--k:3">
+            <h3>Pengawasan yang lemah</h3>
+            <p>Pantau Gambut menilai pola titik panas menunjukkan kaitan erat antara kebakaran dengan lemahnya pengawasan dan penegakan hukum di area konsesi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DAMPAK ================= -->
+    <section class="sec d1" id="dampak">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="tagline">Siapa yang menanggung</span>
+          <h2>Asapnya sampai ke paru-paru kita</h2>
+          <p class="sub">Dampak karhutla tidak berhenti di lahan yang hangus. Ia menjalar ke kesehatan, ekonomi, dan iklim.</p>
+        </div>
+        <div class="impacts">
+          <div class="card impact rv" style="--k:0">
+            <h3>Kesehatan</h3>
+            <ul>
+              <li><b>113.336 kasus ISPA</b> tercatat di 63 kabupaten/kota terdampak.</li>
+              <li><b>26.545 kasus</b> terjadi pada balita (0–5 tahun).</li>
+              <li>CELIOS memperkirakan <b>1,78 hingga 17,4 juta orang</b> berpotensi terdampak asap.</li>
+            </ul>
+            <p class="src">Kemenkes · CELIOS</p>
+          </div>
+          <div class="card impact rv" style="--k:1">
+            <h3>Ekonomi</h3>
+            <ul>
+              <li>Kerugian ekonomi diperkirakan <b>Rp29,54 triliun</b> (0,23% PDB nasional) untuk Januari–Agustus.</li>
+              <li>Kerugian kesehatan diperkirakan <b>Rp9,75 hingga Rp93,56 triliun</b>, tergantung skenario.</li>
+              <li>Total kerugian tertinggi setara <b>49,1%</b> dari perkiraan PDRB Kalimantan Tengah 2026.</li>
+            </ul>
+            <p class="src">Studi CELIOS, Sep 2026</p>
+          </div>
+          <div class="card impact rv" style="--k:2">
+            <h3>Iklim dan lingkungan</h3>
+            <ul>
+              <li>Greenpeace mencatat <b>3.213 sumber asap di Kalimantan</b> dan <b>894 di Sumatra</b> sejak Agustus hingga 20 September.</li>
+              <li>Katadata melaporkan karhutla melepas <b>puluhan hingga ratusan juta ton karbon</b>, dan mengancam target FOLU Net Sink.</li>
+              <li>Asap melintasi batas tujuh negara.</li>
+            </ul>
+            <p class="src">Greenpeace · Katadata</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SATWA ================= -->
+    <section class="sec d2" id="satwa">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="tagline">Korban yang paling sunyi</span>
+          <h2>Mereka tidak bisa menelepon siapa pun</h2>
+          <p class="sub">Satwa liar kehilangan makanan, air, dan tempat berteduh. Yang selamat dari api masih bisa terjebak asap atau terpaksa masuk ke permukiman.</p>
+        </div>
+        <div class="wild">
+          <div class="card wcard rv" style="--k:0">
+            <span class="big">21</span>
+            <div>
+              <h3>Orangutan diselamatkan di Kalimantan Barat</h3>
+              <p>Yayasan YIARI mengevakuasi 21 orangutan di Ketapang dan Kayong Utara hingga 16 September. Seekor betina bernama Mama Penja, sekitar 20 tahun, mengalami luka bakar di tangan dan kakinya.</p>
+              <span class="src">Sumber: GoodNewsFromIndonesia</span>
+            </div>
+          </div>
+          <div class="card wcard rv" style="--k:1">
+            <span class="big">11</span>
+            <div>
+              <h3>Bekantan ditemukan mati</h3>
+              <p>Pada 13 September, sebelas bekantan, sepuluh dewasa dan satu anak, ditemukan mati di Desa Balimau, Hulu Sungai Selatan, Kalimantan Selatan.</p>
+              <span class="src">Sumber: GoodNewsFromIndonesia</span>
+            </div>
+          </div>
+          <div class="card wcard rv" style="--k:2">
+            <span class="big">24</span>
+            <div>
+              <h3>Satwa dievakuasi BKSDA Kalimantan Barat</h3>
+              <p>Antara 1 Agustus dan 10 September: 15 orangutan, 6 trenggiling, 1 bekantan, 1 kukang, dan 1 musang tenggalung, di 18 lokasi. Jumlah ini hanya yang berhasil diselamatkan hidup-hidup.</p>
+              <span class="src">Sumber: Katadata, 11 Sep 2026</span>
+            </div>
+          </div>
+          <div class="card wcard rv" style="--k:3">
+            <span class="big">39</span>
+            <div>
+              <h3>Satwa ditangani BKSDA Kalimantan Timur</h3>
+              <p>Dari Agustus hingga September, termasuk 19 orangutan, kukang, lutung kelabu, elang, beruang madu, dan tarsius. Di Samboja, 11 orangutan dipindahkan ke kandang karantina agar terhindar dari asap.</p>
+              <span class="src">Sumber: GoodNewsFromIndonesia</span>
+            </div>
+          </div>
+        </div>
+        <p class="callout rv"><b>Jumlah sebenarnya belum diketahui.</b> Belum ada yang tahu pasti berapa satwa yang terdampak di seluruh Indonesia. Kementerian Kehutanan mencatat sekitar 100 satwa dievakuasi di enam provinsi prioritas per 22 September, sebagian besar di Kalimantan.</p>
+      </div>
+    </section>
+
+    <!-- ================= HARAPAN & AKSI ================= -->
+    <section class="sec light" id="harapan">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="tagline">Masih ada harapan</span>
+          <h2>Api bisa dicegah, dan sudah ada yang mulai bergerak</h2>
+          <p class="sub">Pemulihan dimulai dari hal yang terdengar sederhana: menjaga gambut tetap basah, dan warga yang saling menjaga desanya.</p>
+        </div>
+
+        <div class="hopes">
+          <div class="card hope rv" style="--k:0">
+            <span class="big">2.354</span>
+            <h3>Desa Mandiri Peduli Gambut</h3>
+            <p>Desa-desa ini menjalankan program pembasahan kembali gambut, penanaman ulang, dan penguatan ekonomi warga, supaya menjaga gambut juga menghidupi.</p>
+            <span class="src">Kementerian Lingkungan Hidup</span>
+          </div>
+          <div class="card hope rv" style="--k:1">
+            <span class="big">Tiap hari</span>
+            <h3>Warga berpatroli menjaga api</h3>
+            <p>Kelompok Masyarakat Peduli Api di Teluk Meranti, Pelalawan, Riau, berpatroli bersama warga setiap hari untuk mencegah api sebelum membesar.</p>
+            <span class="src">Kementerian Lingkungan Hidup</span>
+          </div>
+          <div class="card hope rv" style="--k:2">
+            <span class="big">83</span>
+            <h3>Tersangka diungkap pada 2025</h3>
+            <p>Kapolri menyebut 83 tersangka kasus karhutla pada 2025. Penegakan hukum yang konsisten membuat pembakar lahan berpikir dua kali.</p>
+            <span class="src">Bisnis.com, 24 Okt 2025</span>
+          </div>
+        </div>
+
+        <div class="card gap rv" id="gap">
+          <h3>Sekat kanal: kebutuhan masih jauh dari tercukupi</h3>
+          <p>Sekat kanal seperti bendungan kecil yang menahan air tetap di gambut. Untuk tujuh provinsi rawan kebakaran, kebutuhan idealnya 538.568 unit. Yang tersedia baru sekitar 45.430 unit, atau kurang lebih 8%.</p>
+          <div class="meter" role="img" aria-label="Sekitar 8 persen kebutuhan sekat kanal sudah tersedia"><i></i></div>
+          <div class="meter-l"><span>45.430 tersedia</span><span>538.568 dibutuhkan</span></div>
+        </div>
+
+        <div class="act" id="aksi">
+          <div class="rv">
+            <span class="tagline">Bagianmu</span>
+            <h2>Enam langkah kecil yang bisa kamu mulai hari ini</h2>
+            <p class="sub">Pilih langkah yang akan kamu lakukan. Pohon di sebelah akan tumbuh mengikuti pilihanmu.</p>
+            <ul class="pledges" id="pledges">
+              <li><label><input type="checkbox"><span class="box"><svg viewBox="0 0 16 16"><path d="M3 8.500 6.500 12 13 4.500"/></svg></span><span>Tidak membakar sampah atau lahan, sekecil apa pun, terutama di musim kemarau.</span></label></li>
+              <li><label><input type="checkbox"><span class="box"><svg viewBox="0 0 16 16"><path d="M3 8.500 6.500 12 13 4.500"/></svg></span><span>Melapor ke BPBD atau Manggala Agni terdekat bila melihat api atau asap. Jangan memadamkan sendiri kalau sudah besar.</span></label></li>
+              <li><label><input type="checkbox"><span class="box"><svg viewBox="0 0 16 16"><path d="M3 8.500 6.500 12 13 4.500"/></svg></span><span>Memeriksa kualitas udara sebelum beraktivitas, dan memakai masker N95 atau KN95 saat asap pekat.</span></label></li>
+              <li><label><input type="checkbox"><span class="box"><svg viewBox="0 0 16 16"><path d="M3 8.500 6.500 12 13 4.500"/></svg></span><span>Memilih produk kertas dan sawit yang asal-usulnya bisa ditelusuri dan berkomitmen tanpa membakar lahan.</span></label></li>
+              <li><label><input type="checkbox"><span class="box"><svg viewBox="0 0 16 16"><path d="M3 8.500 6.500 12 13 4.500"/></svg></span><span>Membagikan informasi dari sumber resmi, bukan kabar yang belum jelas asalnya.</span></label></li>
+              <li><label><input type="checkbox"><span class="box"><svg viewBox="0 0 16 16"><path d="M3 8.500 6.500 12 13 4.500"/></svg></span><span>Mendukung relawan, pusat rehabilitasi satwa, dan program restorasi gambut.</span></label></li>
+            </ul>
+          </div>
+
+          <div class="card tree-card rv" style="--k:1">
+            <svg viewBox="0 0 240 280" aria-hidden="true">
+              <path d="M112 280 C114 230 116 200 118 150 L130 150 C128 200 130 232 132 280Z" fill="#6b4a2c"/>
+              <path d="M122 190 C100 176 88 170 76 150" stroke="#6b4a2c" stroke-width="7" fill="none" stroke-linecap="round"/>
+              <path d="M124 170 C146 156 156 148 170 128" stroke="#6b4a2c" stroke-width="7" fill="none" stroke-linecap="round"/>
+              <circle class="leaf" cx="120" cy="64" r="46" fill="#2f8a4a"/>
+              <circle class="leaf" cx="68" cy="108" r="38" fill="#3f9d5a"/>
+              <circle class="leaf" cx="172" cy="104" r="38" fill="#3f9d5a"/>
+              <circle class="leaf" cx="120" cy="116" r="40" fill="#52b36c"/>
+              <circle class="leaf" cx="70" cy="150" r="30" fill="#6cc383"/>
+              <circle class="leaf" cx="168" cy="146" r="30" fill="#6cc383"/>
+            </svg>
+            <h3 id="tree-title">Belum ada langkah dipilih</h3>
+            <p id="tree-text">Mulailah dari satu langkah kecil.</p>
+          </div>
+        </div>
+
+        <div class="card safe rv">
+          <span class="em" aria-hidden="true">😷</span>
+          <div>
+            <h3>Saat asap pekat di sekitarmu</h3>
+            <p>Tetap di dalam ruangan dengan jendela tertutup, kurangi aktivitas di luar, dan pakai masker N95 atau KN95 kalau harus keluar. Anak-anak, lansia, dan penderita asma paling rentan, jadi cari bantuan medis bila sesak napas memburuk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PITA PULANG ================= -->
+    <section class="calm" aria-labelledby="pulang">
+      <div class="inner wrap">
+        <h2 id="pulang">Mereka bisa pulang, kalau kita bergerak sekarang</h2>
+        <p>Setiap hektare gambut yang tetap basah, setiap desa yang berjaga, dan setiap orang yang peduli membuat jalan pulang itu sedikit lebih dekat.</p>
+        <div class="btns"><a class="btn lime" href="#teknologi">Pantau titik api sendiri</a></div>
+      </div>
+      <div class="herd" id="herd-calm" aria-hidden="true"></div>
+      <div class="path" aria-hidden="true"></div>
+    </section>
+
+    <!-- ================= TEKNOLOGI ================= -->
+    <section class="sec d3" id="teknologi" style="margin-top:-40px">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="tagline">Teknologi terbuka dan aplikasi mobile</span>
+          <h2>Pantau api dengan data yang bisa diakses siapa saja</h2>
+          <p class="sub">Beberapa layanan berikut gratis dan berbasis data terbuka. Cocok untuk warga, relawan, mahasiswa, dan jurnalis yang ingin memeriksa kondisi sendiri.</p>
+        </div>
+        <div class="tools">
+          <div class="card tool rv" style="--k:0">
+            <span class="tg">Data satelit terbuka</span>
+            <h3>NASA FIRMS</h3>
+            <p>Peta titik api dari satelit dengan pembaruan hampir real-time. Bisa dibuka lewat browser di ponsel maupun komputer.</p>
+            <a href="https://firms.modaps.eosdis.nasa.gov/map/" target="_blank" rel="noopener">Buka FIRMS</a>
+          </div>
+          <div class="card tool rv" style="--k:1">
+            <span class="tg">Data terbuka</span>
+            <h3>Global Forest Watch</h3>
+            <p>Peta tutupan hutan dan peringatan perubahan hutan dari data satelit, untuk melihat di mana hutan hilang atau terbakar.</p>
+            <a href="https://www.globalforestwatch.org/" target="_blank" rel="noopener">Buka Global Forest Watch</a>
+          </div>
+          <div class="card tool rv" style="--k:2">
+            <span class="tg">Opensource</span>
+            <h3>Organic Maps</h3>
+            <p>Aplikasi peta offline berbasis OpenStreetMap. Berguna untuk relawan dan warga yang butuh peta saat sinyal terputus.</p>
+            <a href="https://organicmaps.app/" target="_blank" rel="noopener">Lihat Organic Maps</a>
+          </div>
+        </div>
+        <p class="note rv" style="margin-top:22px">Untuk angka resmi, pantau juga SiPongi milik pemerintah dan laman BNPB.</p>
+      </div>
+    </section>
+
+    <!-- ================= SUMBER ================= -->
+    <section class="sources" id="sumber">
+      <div class="wrap">
+        <h2>Sumber data</h2>
+        <p class="sub">Semua angka di halaman ini berasal dari laporan berikut. Data karhutla berubah cepat, jadi cek ulang sumber aslinya sebelum mengutip.</p>
+        <ul>
+          <li><a href="https://lestari.kompas.com/read/2026/10/03/093745086/luas-karhutla-2026-melonjak-perbaikan-tata-kelola-lahan-dan-gambut-jadi" target="_blank" rel="noopener">Luas Karhutla 2026 Melonjak</a><small>Kompas.com, 3 Oktober 2026</small></li>
+          <li><a href="https://opsi.id/celios-karhutla-2026-tembus-202-ribu-hektare-kerugian-ekonomi-dan-kesehatan-capai-rp1231-triliun/" target="_blank" rel="noopener">CELIOS: Karhutla 2026 Tembus 202 Ribu Hektare</a><small>Opsi.id, 2 September 2026</small></li>
+          <li><a href="https://databoks.katadata.co.id/lingkungan/statistik/6acded6c4f833/luas-karhutla-6-provinsi-prioritas-penanganan-kalteng-terparah-12-oktober-2026" target="_blank" rel="noopener">Luas Karhutla 6 Provinsi Prioritas, 12 Oktober 2026</a><small>Databoks Katadata (data BNPB)</small></li>
+          <li><a href="https://www.rctiplus.com/news/detail/terkini/5466776/karhutla-masih-dominasi-bencana--riau-paling-luas-capai-18-882-hektare" target="_blank" rel="noopener">Karhutla Masih Dominasi Bencana, Riau Paling Luas</a><small>RCTI+ (data BNPB), 4–5 September 2026</small></li>
+          <li><a href="https://katadata.co.id/ekonomi-hijau/ekonomi-sirkular/6aa3676c27cdd/bksda-kalbar-evakuasi-24-satwa-liar-terdampak-karhutla-paling-banyak-orangutan" target="_blank" rel="noopener">BKSDA Kalbar Evakuasi 24 Satwa Liar</a><small>Katadata, 11 September 2026</small></li>
+          <li><a href="https://www.goodnewsfromindonesia.id/ragam/alam-lingkungan/karhutla-terjadi-daftar-satwa-yang-terdampak" target="_blank" rel="noopener">Karhutla Masih Terjadi: Daftar Satwa yang Terdampak</a><small>GoodNewsFromIndonesia</small></li>
+          <li><a href="https://kemenlh.go.id/news/detail/jaga-gambut-tetap-basah-menteri-lh-perkuat-sekat-kanal-dan-budaya-ekologis-di-pelalawan" target="_blank" rel="noopener">Jaga Gambut Tetap Basah, Perkuat Sekat Kanal di Pelalawan</a><small>Kementerian Lingkungan Hidup</small></li>
+          <li><a href="https://katadata.co.id/ekonomi-hijau/investasi-hijau/6a9fc45d7bab5/karhutla-ri-lepas-puluhan-hingga-ratusan-juta-ton-karbon-folu-net-sink-terancam" target="_blank" rel="noopener">Karhutla RI Lepas Puluhan hingga Ratusan Juta Ton Karbon</a><small>Katadata</small></li>
+          <li><a href="https://lestari.kompas.com/read/2026/03/26/100600886/karhutla-indonesia-2025-capai-359.000-hektar-ini-7-provinsi-yang-rawan" target="_blank" rel="noopener">Karhutla Indonesia 2025 Capai 359.000 Hektare</a><small>Kompas.com, 26 Maret 2026</small></li>
+          <li><a href="https://kabar24.bisnis.com/read/20251024/15/1923169/kasus-karhutla-2025-kapolri-ungkap-ada-83-tersangka" target="_blank" rel="noopener">Kasus Karhutla 2025, Kapolri Ungkap Ada 83 Tersangka</a><small>Bisnis.com, 24 Oktober 2025</small></li>
+        </ul>
+        <div class="foot">
+          <span>Rimba Pulih · blog kampanye lingkungan untuk tugas mata kuliah Aplikasi dan Teknologi.</span>
+          <span>Dibuat dengan HTML, CSS, dan JavaScript, di-hosting di GitHub Pages.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
